@@ -1,0 +1,136 @@
+*{margin: 0px;padding: 0px;}
+html,body{width: 100%;height: 100%;}
+body {font-family:"Microsoft YaHei", Helvetica, Tahoma, Arial, \5b8b\4f53, sans-serif!important; }
+i,em{font-style: normal;}
+ul{list-style: none;}
+*, *:before, *:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.i{display: inline-block;vertical-align: middle;}
+a:active,a:focus {outline: none;star:expression(this.onFocus=this.blur());}
+.clearFix:after{ display:block; clear:both; height:0; visibilit.list-mian .scopey:hidden; content:'';}
+
+/* 公共类 */
+.wrap{min-width: 1200px;min-height: 700px;height: 100%;}
+.main-head{height: 25%;}
+.main-head-one{height: 70%;}
+.content{width: 100%;margin: auto;height: 100%;}
+.content:after{ display:block; clear:both; height:0; visibilit.list-mian .scopey:hidden; content:'';}
+.float-left{float: left!important;}
+.float-right{float: right!important;}
+
+/* 主体 */
+.data-index{background: url(../images/bg.jpg); background-size: cover;}
+.main-left{width: 75%;float: left;height: 100%;padding:1% 2%;}
+
+/* 主体左边 */
+.search-box{padding: 0px 3% 0px 2%;font-size: 0;}
+.search{width: 70%;position: relative;}
+.search input{width: 25%;height: 28px;border: 1px solid #05cded;background: none;color: #fff;font-size: 18px;padding: 5px;}
+.search button{width: 11%;height: 28px;border: 1px solid #05cded;background: #05cded;color: #fff;font-size: 18px;margin-left: 17px;}
+.sel-prompt{position: absolute;width: 25%;left: 0px;top: 28px;font-size: 18px;background: #fff;border: 1px solid #05cded;z-index: 99;display: none;}
+.sel-prompt span{display: block;padding: 5px;cursor: pointer;}
+.sel-prompt span:hover{background: #05cded;color: #fff;}
+
+
+
+.username{color: #ffb129;font-size: 25px;width: 30%;}
+.progress-bar{padding: 2%;}
+.progress-bar>span{font-size: 20px;color: #fff;margin-bottom: 10px;display: block;}
+.progress-bar .bar{width: 98%; border-radius: 3px;height: 28px;position: relative;box-shadow: inset 0px 0px 8px #fff;background: #dad6c9;}
+.progress-bar .runner{position: absolute;width: 0%;left: 0px;top: 0px;background: #dad6c9;height: 100%;border-radius: 3px;}
+.progress-bar .progress-num{width: 20%;float: left;text-align: center;height: 28px;border-radius: 3px 10px 10px 3px;box-shadow: inset 0px 0px 8px #fff;}
+.progress-num i{float: right;height: 52px;width: 57px;background: #fff;line-height:49px;font-size: 18px;color: #3bc1ff;border-radius: 50%;border: 2px solid #00acfe;margin-top: -13px;position: relative;margin-right: -10px;}
+.runner.colyb{background: #fe5b4c;}
+.runner.colzd{background: #36baff;}
+.runner.collh{background: #ffb129;}
+.runner.colyx{background: #007eff;}
+.runner.coljh{background: #76cc30;}
+/*.progress-num.red{background: #36baff;}
+.progress-num.yellow{background: #ffb129;}
+.progress-num.blue{background: #007eff;}
+.progress-num.green{background: #76cc30;}*/
+.progress-num .level{margin-top: 40px;color: #fff;font-size: 18px;width: 85%;}
+.chart-box{height:75%;}
+.chart-box-tit{font-size: 22px;color: #ffb129;font-weight: normal;text-align: center;height: 30%;padding-top: 2%;}
+.chart-box .chart-item{height: 100%; background:rgba(8,48,113,0.6);box-shadow: 0px 0px 5px #1ed7cc;width: 49%;border-radius: 3px;position: relative;}
+.chart-semicircle{position: relative;height: 60%;overflow: hidden;padding: 20px;}
+.chart-semicircle .origin{background: #05cded;border-radius: 50%;height: 16px;width: 16px;border: 2px solid #fff;display: inline-block;position: absolute;bottom: 0px;left: 14px;z-index: 99;}
+.chart-semicircle .semicircle{position: absolute;border-radius: 1000px 1000px 0 0;bottom: -4px;left: 20px; transform-origin: bottom;-ms-transform-origin: bottom;border-bottom: none!important;transform:rotate(180deg);-ms-transform:rotate(180deg);}
+.chart-semicircle .semicircle.w20{width: 20%;border: 4px solid #36baff;box-shadow: 1px -5px 5px -2px #36baff;}
+.chart-semicircle .semicircle.w30{width: 35%;border: 4px solid #d6a03b;box-shadow: 1px -5px 5px -2px #d6a03b;}
+.chart-semicircle .semicircle.w40{width: 55%;border: 4px solid #0366cf;box-shadow: 1px -5px 5px -2px #0366cf;}
+.chart-semicircle .semicircle.w50{width: 75%;border: 4px solid #76cc30;box-shadow: 1px -5px 5px -2px #76cc30;}
+.chart-semicircle .semicircle.w60{width: 90%;border: 4px solid #dbd7cb;box-shadow: 1px -5px 5px -2px #dbd7cb;}
+.exponent{text-align: center;margin-top: -24px;position: absolute;width: 20%;left:17px;}
+.exponent em{color: #fff;font-size: 25px;display: block;}
+.exponent i{color: #ffb129;font-size: 20px;display: block;}
+.chart-semicircle-box .chart-title{opacity: 0;}
+.chart-title{padding:0px 18px;}
+.chart-title i{color: #fff;font-size: 20px;width: 1px;display: inline-block;}
+.chart-title i:nth-child(1){padding-left: 20%;}
+.chart-title i:nth-child(2){padding-left: 14%;}
+.chart-title i:nth-child(3){padding-left: 20%;}
+.chart-title i:nth-child(4){padding-left: 20%;}
+.chart-title i:nth-child(5){padding-left: 15%;}
+.num-scope li{width: 33.3%;text-align: center;color: #fff;font-size: 20px;float: left;margin: 25px 0px 0px;}
+.num-scope li em{width: 50%;height: 40px;line-height: 40px;border-radius: 5px;display: inline-block;vertical-align: middle;background: url(../images/num-scopeBg.png); background-size: cover;margin-left: 20px;min-width: 100px;}
+.chart-histogram{padding:0px 15px; margin: auto;position: absolute;top: 0;left: 0;bottom: 0;right: 0;height: 70%;}
+.histogram{height: 80%;border-bottom: 5px solid #fff;font-size: 0px;}
+.histogram li{width: 8%;margin: 0px 6%;position: relative;height: 100%;float: left;}
+.histogram li em{position: absolute;bottom: 0px;width: 100%;overflow:visible!important; }
+.histogram li em i{display: block;width: 120%;padding-bottom: 120%; /*line-height: 60px;height: 60px;*/background: #fff;font-weight: bold; color: #36baff;text-align: center;border-radius: 50%;margin: -21px 0px 0px -5px;position: relative;}
+.histogram li em span{ margin: auto;position: absolute;top: 0; left: 0; bottom: 0; right: 0;font-size: 22px;width: 40px;height: 40px;line-height: 40px;}
+
+.histogram li:nth-child(1) em{background: #36baff;}
+.histogram li:nth-child(2) em{background: #ffb129;}
+.histogram li:nth-child(3) em{background: #007eff;}
+.histogram li:nth-child(4) em{background: #76cc30;}
+.histogram li:nth-child(5) em{background: #dbd7cb;}
+
+.histogram li:nth-child(1) em i{ box-shadow:0px 0px 0px 8px #36baff, 0px 0px 0px 9px #fff;}
+.histogram li:nth-child(2) em i{ box-shadow:0px 0px 0px 8px #ffb129, 0px 0px 0px 9px #fff;}
+.histogram li:nth-child(3) em i{ box-shadow:0px 0px 0px 8px #007eff, 0px 0px 0px 9px #fff;}
+.histogram li:nth-child(4) em i{ box-shadow:0px 0px 0px 8px #76cc30, 0px 0px 0px 9px #fff;}
+.histogram li:nth-child(5) em i{ box-shadow:0px 0px 0px 8px #dbd7cb, 0px 0px 0px 9px #fff;}
+
+.chart-histogram .chart-title{padding: 0px;font-size: 0px;margin-top: 15px;}
+.chart-histogram .chart-title i{padding-left: 0px;width: 8%;margin: 0px 6%;text-align: center;}
+.chart-histogram .chart-title span{display: inline-block;width:20px;}
+
+
+/* 主体右边 */
+.main-right{width: 25%;float: right;height: 100%;padding:1% 2% 1% 0px;}
+.data-logo{float: right;/*margin:4% 0px 0%;*/}
+.data-logo h1{color: #fff;font-size: 26px;margin-right: 3rem;}
+.data-logo h1 em{color: #dda136;font-size: 34px;display: inline-block;vertical-align: bottom;margin-right: 20px;}
+.data-logo p{color: #fff;font-size: 26px;float: right;}
+.data-logo p i{color: #fff;font-size: 19px;display: block;}
+.list-tit{float: right; width: 100%; font-size: 22px; color: #fff;height: 30%;padding-top: 5%;}
+.list-tit i{text-align: center;}
+.list-tit i.float-left{padding-left: 6%;}
+.list-tit i.float-right{width: 30%;}
+.client-list{height: 75%;float: left;width: 100%;}
+.client-list .list{height: 100%;overflow: auto;margin-right: -5%;}
+.client-list .list li{ background: rgba(8,48,113,0.6); box-shadow: 0px 0px 5px #1ed7cc; width: 100%; border-radius: 3px; position: relative;height: 100px;margin-bottom: 27px;cursor: pointer;display: table;}
+.client-list .list li:last-child{margin-bottom: 0px;}
+.client-list .list em{text-align: left;color: #35b9ff;font-size: 20px;padding-left:6%;display: table-cell;vertical-align: middle;width: 70%}
+.client-list .list i{width: 30%;text-align: center;color: #ffb129;font-size: 20px;display: table-cell;vertical-align: middle;}
+.client-list .list li.cur em{color: #ffb129;}
+
+@media all and (max-width:1300px) {
+   .num-scope li em{margin-left: 0px;margin-top: 5px;}
+}
+@media all and (max-width:1500px) {
+    .chart-semicircle{height: 45%;}
+}
+@media all and (max-height:800px){
+    /*.chart-box{height: 70%;}*/
+    .chart-title i{font-size: 18px;}
+    .num-scope li{margin-top: 17px;}
+}
+@media all and (max-height:768px){
+    /*.chart-box{height: 70%;}*/
+    .progress-bar{padding: 1% 2%;}
+    /*.data-logo{margin: 5% 0px;}*/
+    .num-scope li{font-size: 15px;}
+    .num-scope li em{height: 30px;line-height: 30px;}
+}
